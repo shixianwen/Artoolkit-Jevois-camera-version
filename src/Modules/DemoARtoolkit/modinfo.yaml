@@ -1,0 +1,48 @@
+general: 
+  displayname: Demo A Rtoolkit 
+  synopsis: This author is too lazy to write a synopsis! 
+  description: > 
+    This author is too lazy to write a description!
+
+  parameters: 
+    - name: (<A HREF="/basedoc/classARtoolkit.html">ARtoolkit</A>) useContPoseEstimation
+      type: bool
+      description: Use Continues pose Estimation in a good quality of video
+      defval: true
+      validvals: -
+    - name: (<A HREF="/basedoc/classARtoolkit.html">ARtoolkit</A>) xsize
+      type: int
+      description: the length of x axis of the video,
+      defval: 640
+      validvals: -
+    - name: (<A HREF="/basedoc/classARtoolkit.html">ARtoolkit</A>) ysize
+      type: int
+      description: the length of y axis of the video,
+      defval: 480
+      validvals: -
+    - name: (<A HREF="/basedoc/classARtoolkit.html">ARtoolkit</A>) dictionary
+      type: Dict
+      description: Symbol dictionary to use
+      defval: Dict::AR_MATRIX_CODE_3x3_PARITY65
+      validvals: -
+
+
+authorship: 
+  author: 
+  email: 
+  mainurl: 
+  supporturl: 
+  otherurl: 
+  address: 
+
+licensing: 
+  copyright: 
+  license: 
+  distribution: 
+  restrictions: 
+
+os: 
+  name: Ubuntu
+  version: 16.10
+  depends: 
+

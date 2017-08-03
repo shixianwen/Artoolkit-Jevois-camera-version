@@ -1,0 +1,9 @@
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/install/strip.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/install/local.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/install.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/list_install_components.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/rebuild_cache.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/edit_cache.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/jvpkg.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/DemoARtoolkit.dir
+/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/modinfo_DemoARtoolkit.dir

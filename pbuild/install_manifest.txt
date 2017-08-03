@@ -1,0 +1,14 @@
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para320x240.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/screenshot1.png
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para160x120.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/markers1.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/markers2.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para1028x1024.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/postinstall
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para640x480.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/videomappings.cfg
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para176x144.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/markers0.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/camera_para352x288.dat
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/icon.png
+/home/shixianwen/demoartoolkit/jvpkg/modules/shixian/DemoARtoolkit/DemoARtoolkit.so

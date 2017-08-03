@@ -1,0 +1,534 @@
+The system is: Linux - 4.10.0-26-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91033/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91033.dir/build.make CMakeFiles/cmTC_91033.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91033.dir/testCCompiler.c.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_91033.dir/testCCompiler.c.o   -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_91033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91033.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc       CMakeFiles/cmTC_91033.dir/testCCompiler.c.o  -o cmTC_91033 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa4d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa4d9.dir/build.make CMakeFiles/cmTC_aa4d9.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_aa4d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4d9.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o  -o cmTC_aa4d9 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc.br_real
+COLLECT_LTO_WRAPPER=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --sysconfdir=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-mpfr=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-pkgversion='Buildroot 2016.08-rc2-g573e31395' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --disable-libmudflap --enable-threads --with-mpc=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-isl=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp
+Thread model: posix
+gcc version 6.1.0 (Buildroot 2016.08-rc2-g573e31395) 
+COMPILER_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa4d9' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2 -plugin /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so -plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctispr2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_aa4d9 /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0 -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa4d9' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_aa4d9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_aa4d9.dir/build.make CMakeFiles/cmTC_aa4d9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_aa4d9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa4d9.dir/link.txt --verbose=1]
+  ignore line: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o  -o cmTC_aa4d9 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --sysconfdir=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-mpfr=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-pkgversion='Buildroot 2016.08-rc2-g573e31395' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --disable-libmudflap --enable-threads --with-mpc=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-isl=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.1.0 (Buildroot 2016.08-rc2-g573e31395) ]
+  ignore line: [COMPILER_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa4d9' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2 -plugin /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so -plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cctispr2.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_aa4d9 /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0 -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctispr2.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aa4d9] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o] ==> ignore
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_aa4d9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/lib]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/lib;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7f061/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7f061.dir/build.make CMakeFiles/cmTC_7f061.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f061.dir/feature_tests.c.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc    -std=c11 -o CMakeFiles/cmTC_7f061.dir/feature_tests.c.o   -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7f061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f061.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc       CMakeFiles/cmTC_7f061.dir/feature_tests.c.o  -o cmTC_7f061 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9624a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9624a.dir/build.make CMakeFiles/cmTC_9624a.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9624a.dir/feature_tests.c.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc    -std=c99 -o CMakeFiles/cmTC_9624a.dir/feature_tests.c.o   -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9624a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9624a.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc       CMakeFiles/cmTC_9624a.dir/feature_tests.c.o  -o cmTC_9624a -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73b95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73b95.dir/build.make CMakeFiles/cmTC_73b95.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73b95.dir/feature_tests.c.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc    -std=c90 -o CMakeFiles/cmTC_73b95.dir/feature_tests.c.o   -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.c
+Linking C executable cmTC_73b95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73b95.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-gcc       CMakeFiles/cmTC_73b95.dir/feature_tests.c.o  -o cmTC_73b95 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_edaf7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_edaf7.dir/build.make CMakeFiles/cmTC_edaf7.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_edaf7.dir/testCXXCompiler.cxx.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++      -o CMakeFiles/cmTC_edaf7.dir/testCXXCompiler.cxx.o -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_edaf7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_edaf7.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++        CMakeFiles/cmTC_edaf7.dir/testCXXCompiler.cxx.o  -o cmTC_edaf7 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0f15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0f15.dir/build.make CMakeFiles/cmTC_f0f15.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++      -o CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f0f15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0f15.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++       -v CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f0f15 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++.br_real
+COLLECT_LTO_WRAPPER=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --sysconfdir=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-mpfr=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-pkgversion='Buildroot 2016.08-rc2-g573e31395' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --disable-libmudflap --enable-threads --with-mpc=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-isl=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp
+Thread model: posix
+gcc version 6.1.0 (Buildroot 2016.08-rc2-g573e31395) 
+COMPILER_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0f15' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2 -plugin /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so -plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccksTaRp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f0f15 /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0 -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0f15' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f0f15/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f0f15.dir/build.make CMakeFiles/cmTC_f0f15.dir/build]
+  ignore line: [make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++      -o CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f0f15]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0f15.dir/link.txt --verbose=1]
+  ignore line: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++       -v CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f0f15 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --sysconfdir=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-mpfr=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-pkgversion='Buildroot 2016.08-rc2-g573e31395' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --enable-plugins --enable-lto --disable-libmudflap --enable-threads --with-mpc=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --with-isl=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=neon-vfpv4 --with-float=hard --with-mode=arm --enable-languages=c,c++,fortran --with-build-time-tools=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.1.0 (Buildroot 2016.08-rc2-g573e31395) ]
+  ignore line: [COMPILER_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib/:/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f0f15' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=neon-vfpv4' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2 -plugin /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so -plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccksTaRp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f0f15 /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0 -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib -L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o /usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/libexec/gcc/arm-buildroot-linux-gnueabihf/6.1.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccksTaRp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f0f15] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtbegin.o] ==> ignore
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_f0f15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/crtend.o] ==> ignore
+    arg [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/lib]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/6.1.0;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/lib;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/lib;/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56f21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56f21.dir/build.make CMakeFiles/cmTC_56f21.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56f21.dir/feature_tests.cxx.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++     -std=c++14 -o CMakeFiles/cmTC_56f21.dir/feature_tests.cxx.o -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_56f21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56f21.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++        CMakeFiles/cmTC_56f21.dir/feature_tests.cxx.o  -o cmTC_56f21 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d25f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d25f1.dir/build.make CMakeFiles/cmTC_d25f1.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d25f1.dir/feature_tests.cxx.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++     -std=c++11 -o CMakeFiles/cmTC_d25f1.dir/feature_tests.cxx.o -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d25f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d25f1.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++        CMakeFiles/cmTC_d25f1.dir/feature_tests.cxx.o  -o cmTC_d25f1 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f06e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f06e2.dir/build.make CMakeFiles/cmTC_f06e2.dir/build
+make[1]: Entering directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f06e2.dir/feature_tests.cxx.o
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++     -std=c++98 -o CMakeFiles/cmTC_f06e2.dir/feature_tests.cxx.o -c /home/shixianwen/demoartoolkit/pbuild/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f06e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06e2.dir/link.txt --verbose=1
+/usr/share/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/bin/arm-buildroot-linux-gnueabihf-g++        CMakeFiles/cmTC_f06e2.dir/feature_tests.cxx.o  -o cmTC_f06e2 -rdynamic 
+make[1]: Leaving directory '/home/shixianwen/demoartoolkit/pbuild/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

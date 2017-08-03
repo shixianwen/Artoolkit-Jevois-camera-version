@@ -1,0 +1,15 @@
+export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib:~/jevois-sdk/out/sun8iw5p1/linux/common/buildroot/host/usr/lib
+
+guvcview -ao none -f YUYV -x 640x480 -d /dev/video1
+
+####################################################################################################
+### Demo: Artoolkit augmented-reality markers detection and decoding
+####################################################################################################
+
+YUYV 640 480 30.0 YUYV 640 480 30.0 shixian DemoARtoolkit *
+YUYV 320 240 30.0 YUYV 320 240 30.0 shixian DemoARtoolkit 
+
+jevois-flash-card /dev/mmcblk0
+boot 17mb
+JEVOIS 6.7GB 6860
+LINUX 1GB

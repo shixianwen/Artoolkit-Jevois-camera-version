@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+7a989b4d0829db8b2c5706d529fc151d ../src/Modules/DemoARtoolkit/modinfo.yaml
+d9ced60438307ffe63b2da2e5465e9cc CMakeFiles/jvpkg
+71b5407ee3440116a5c3121ea5a49c3d CMakeFiles/modinfo_DemoARtoolkit
