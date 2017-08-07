@@ -13,3 +13,5 @@ Some Jevois command which is really useful is put into: jevois library command l
 The artoolkit library is putted in the Contrib folder and our code is in the source folder. Also, The MakeList in the main folder is a good way to understand how to write a makefile in order to compile and link the openCV library.
 
 If you have any problem, pls send emails to shixianw@usc.edu
+
+The Markers can be found in the doc folder in the Contrib folder.
